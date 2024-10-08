@@ -1,4 +1,5 @@
 [package]
+description = "A simple derive macro that adds a default getter function for each struct field"
 edition = "2021"
 license = "MIT"
 name = "default_fields"
