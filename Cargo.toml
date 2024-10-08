@@ -1,6 +1,9 @@
 [package]
 edition = "2021"
+license = "MIT"
 name = "default_fields"
+readme = "README.md"
+repository = "https://github.com/qusuyan/DefaultFields.git"
 version = "0.1.0"
 
 [lib]
