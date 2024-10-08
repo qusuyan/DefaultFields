@@ -3,7 +3,7 @@
 [![license-badge](https://img.shields.io/crates/l/default_fields)](https://github.com/qusuyan/DefaultFields/blob/main/LICENSE.txt)
 [![crates-badge](https://img.shields.io/crates/v/default_fields)](https://crates.io/crates/default_fields)
 
-Simple Rust derive macro that, for each field in the struct, creates a function that returns its default value (requires the struct to extend `Default` trait). This is useful if you want to parse struct from JSON and fill in the missing elements with defaults. For example, the following code:
+Simple Rust derive macro that, for each field in the struct, creates a function that returns its default value (requires the struct to implement `Default` trait). This is useful if you want to parse struct from JSON and fill in the missing elements with defaults. For example, the following code:
 
 ```rust
 #[derive(Deserialize)]
